@@ -1,0 +1,11 @@
+1. HeapSort: selection sort with min heap data structure ✔
+2. correct __str__ function in MinHeap class             ✔
+
+3. Implement binary search tree with operations search and insert ✔
+4. implement Min, Max, predecessor and successor operations       ✔
+5. print key of the tree in increasing order using recursion      ✔
+6. delete operation                                               ✔
+7. selection and ranking operations by augmenting the tree with size of each node
+	size: how many nodes are reachable + 1 from given node
+	augmenting can affect other operations ✔
+	selection ✔, ranking ✔ with a little help from CoPilot

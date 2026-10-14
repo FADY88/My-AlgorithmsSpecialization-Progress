@@ -1,0 +1,7 @@
+1. the 2-sum problem ✔
+
+those are super theoretical and the real versions are super hard to implement due to
+their hash function so I won't do them
+
+2. implement Quick-and-Dirty hash functions 
+3. implement bloom filter

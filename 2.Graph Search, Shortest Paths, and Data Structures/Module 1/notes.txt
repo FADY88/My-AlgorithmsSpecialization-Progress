@@ -1,0 +1,7 @@
+ToDo list
+1. decide which implementation of graph you'll use and do it ✔
+2. implement Graph Search (Breadth-First, Depth-First)       ✔
+3. implement Shortest Paths                                  ✔
+4. implement Undirected connectivity                         ✔
+5. implement topological sort                                ✔
+6. Computing Strong Connected Components                     ✔

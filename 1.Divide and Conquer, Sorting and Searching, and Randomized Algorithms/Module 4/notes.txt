@@ -1,0 +1,12 @@
+This Module I took 3 algorithms
+selection (randomized, deterministic)
+contraction in graphs (the minimum cut in a graph)
+
+
+I won't implement the contraction algorithm because I don't know the answers of the following questions
+1. what implementation should i use for graphs (easy question)
+2. how to output the A and B parts of the original graph
+3. how to test the algorithm considering that it may fail sometimes
+   (probability of success is almost 1/n squared)
+
+I will implement it in the future   

@@ -1,0 +1,24 @@
+The Minimum Spanning Tree (MST) and the Traveling Salesman Problem (TSP) are both classic graph problems, but they are fundamentally different in terms of their objectives and constraints:
+
+ 1. Minimum Spanning Tree (MST)
+   - Problem Statement: Given a connected, weighted, and undirected graph, find a subset of the edges that connects all the vertices with the minimum possible total edge weight, without forming any cycles.
+   - Output: A tree (i.e., no cycles) that spans all the vertices.
+   - Algorithms: Kruskal's Algorithm, Prim's Algorithm, Borůvka's Algorithm.
+   - Complexity: Efficiently solvable in \(O(m \log n)\) time using Kruskal’s algorithm (where \( n \) is the number of vertices and \( m \) is the number of edges).
+
+ 2. Traveling Salesman Problem (TSP)
+   - Problem Statement: Given a weighted, complete graph with \( n \) vertices, find a Hamiltonian cycle (i.e., a cycle visiting each vertex exactly once) with the minimum possible total edge weight.
+   - Output: A cycle (tour) that starts and ends at the same vertex while visiting every other vertex exactly once.
+   - Algorithms: Exact solutions include Dynamic Programming (Held-Karp, \( O(2^n n^2) \)), Branch and Bound; Approximate solutions include Christofides’ Algorithm (\( O(n^2) \)), Nearest Neighbor, and Genetic Algorithms.
+   - Complexity: NP-hard, meaning that there is no known polynomial-time algorithm to solve it exactly for large \( n \).
+
+ Key Differences
+| Feature           | MST                                          | TSP                                                       |
+|-------------------|----------------------------------------------|-----------------------------------------------------------|
+| Objective         | Connect all vertices with minimum weight     | Find the shortest possible tour visiting each vertex once |
+| Structure         | A tree (no cycles)                           | A cycle (visits all nodes once)                           |
+| Type of Graph     | Any connected, weighted graph                | Typically a complete graph                                |
+| Complexity        | Polynomial-time solvable (\( O(m \log n) \)) | NP-hard (exponential in worst case)                       |
+| Use Cases         | Network design (roads, electricity)          | Logistics, route optimization                             |
+
+Even though MST and TSP both aim to minimize weights, the MST problem avoids cycles and is much easier to solve, while the TSP problem must find an optimal cycle and is computationally hard.

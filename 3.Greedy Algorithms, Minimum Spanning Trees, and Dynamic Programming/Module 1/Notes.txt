@@ -1,0 +1,2 @@
+1. A scheduling of jobs algorithm                               ✔
+2. Minimum Spanning Tree Algorithms (PRIM) on undirected graphs ✔

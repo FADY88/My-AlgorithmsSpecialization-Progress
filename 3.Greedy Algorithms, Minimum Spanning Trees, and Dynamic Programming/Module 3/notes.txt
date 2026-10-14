@@ -1,0 +1,4 @@
+1. implement Huffman codes (with and without heaps)       ✔
+	think of implementation with sorting preprocessing
+2. implement the weighted independent sets in path graphs ✔
+	intro to dynamic programming
